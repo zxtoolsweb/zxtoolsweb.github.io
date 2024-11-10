@@ -1,0 +1,31 @@
+.ui-corner-all{margin-bottom: 8px;}
+.red{color: red;}
+.blue{color: #38c;}
+.deepblue{color: DeepSkyBlue;}
+.lightblue{color: LightSkyBlue;}
+.darkblue{color: RoyalBlue;}
+.orange{color: orange;}
+.rank-blue{color: #37e;}
+.rank-purple{color: #83b;}
+.rank-orange{color: #fa0;}
+.desc{color:gray;font-size:13px;font-weight:normal;}
+.desc-b{color:lightgray;font-size:13px;font-weight:normal;}
+.thin{font-size:13px;font-weight:normal;}
+a.nav{line-height:2;}
+textarea.code{color:white;background-color:#222;text-shadow:0 1px 0 #111;}
+textarea.ide{min-height:180px;}
+@media(max-width:35em){.ui-table-reflow.ui-responsive td,.ui-table-reflow.ui-responsive th {width:auto;float:none;clear:none;display:table-cell;}}
+.vote{width:52px;height:52px;text-align:right;background-color:whitesmoke;padding-top:8px;padding-right:4px;border-radius:3px;margin-right:10px}
+.faq-list{display:table-cell;margin-bottom:-10px;padding-bottom:0;vertical-align:top;}
+a.tag{background-color:#e1ecf4;color:#39739d;border-style:none;border-radius:1px;height:20px;padding-top:2px;font-size:0.8em;margin-top:4px}
+.search{padding:0;margin:12px 0}
+.row-center{margin:0 auto}
+.btn-outline{background-color:transparent;color:inherit;transition:all .3s;margin:0 auto 24px;height:96px;padding-top:20px;line-height:3em}
+.btn-primary.btn-outline{color: #428bca}
+.btn-primary.btn-outline:hover{color:#fff}
+.python-tag{position:absolute;bottom:0;right:0;display:block;padding:4px 16px;border-radius:4px 0 0 0;color:#38c}
+.lesson img{width:100%}
+.lesson iframe{max-width:100%}
+.lesson p{line-height:22px}
+.lesson h4{margin-top:22px;margin-bottom:22px}
+.navbar-fixed-top .navbar-collapse{max-height:640px}

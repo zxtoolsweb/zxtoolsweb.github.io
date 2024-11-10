@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?55807102');
+  src: url('../font/fontello.eot?55807102#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?55807102') format('woff2'),
+       url('../font/fontello.woff?55807102') format('woff'),
+       url('../font/fontello.ttf?55807102') format('truetype'),
+       url('../font/fontello.svg?55807102#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?55807102#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  /*width: 1em;*/
+  /*margin-right: .2em;*/
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  /*line-height: 1em;*/
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /*margin-left: .2em;*/
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-lg {
+  font-size: 1.5em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa-stack-1x {
+  line-height: inherit;
+}
+.fa-stack-2x {
+  font-size: 2em;
+}
+.fa-inverse {
+  color: #ffffff;
+}
+
+.icon-bilibili:before { content: '\e800'; } /* '' */
+.icon-douyin:before { content: '\e801'; } /* '' */
+.icon-zhihu:before { content: '\e802'; } /* '' */
+.icon-github:before { content: '\f09b'; } /* '' */
+.icon-circle:before { content: '\f111'; } /* '' */
+.icon-weibo:before { content: '\f18a'; } /* '' */
+.icon-academy:before { content: '\f19c'; } /* '' */
+.icon-wechat:before { content: '\f1d7'; } /* '' */
